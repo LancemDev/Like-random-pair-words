@@ -42,6 +42,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
+          Text('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'),
           Text('A random Foobar idea:'),
           Text(appState.current.asLowerCase),
 
@@ -50,6 +51,7 @@ class MyHomePage extends StatelessWidget {
             },
               child: Text('Click Me!'))
         ],
+
       ),
     );
   }
